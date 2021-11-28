@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --third: hsl(246, 100%, 50%);
+    --fourth: hsl(180, 100%, 50%);
+}
+
+:root {
+    --primary: hsla(184, 100%, 50%, 0.3);
+    --secondary: hsla(308, 78%, 48%, 0.3);
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    height: 100vh;
+    overflow: hidden;
+    background: linear-gradient(45deg, var(--primary), var(--secondary)),
+            url(https://c.tenor.com/5y4kjmjW01wAAAAM/earth-apocalypse.gif) no-repeat center center / cover;
+    overflow-y: scroll;
+        }
+
+.box1 {
+    margin: 20px 10px;
+}
+
+h1 {
+text-align: center;
+color: #ff6600;
+}
+
+p {
+    text-align: center;
+    color: hsl(192, 100%, 50%);
+    }
+.box2 {
+    margin: 20px 10px;
+}
+
+
+
+.box3 {
+    margin: 20px 10px;
+    background-image: url(https://c.tenor.com/-HrOCIQHcvwAAAAC/earth-destroyed.gif);
+}
+
+
+img {
+    border-radius: 10px;
+    width:200px; 
+    height: 100px;
+}
+
+.box4 p {
+color: rgb(0, 183, 255);
+display: flex;
+flex-direction: row;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* https://c.tenor.com/5y4kjmjW01wAAAAM/earth-apocalypse.gif */
+
+/* no-repeat center center / cover */
+
+/* https://c.tenor.com/-HrOCIQHcvwAAAAC/earth-destroyed.gif */
+
+/* https://cdn.pixabay.com/photo/2017/04/23/19/17/climate-change-2254711_960_720.jpg */
+
+    /* background-image: url(https://cdn.pixabay.com/photo/2016/12/08/19/53/fractals-1892996_960_720.jpg); */
