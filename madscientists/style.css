@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #34495e;
+    color: #fff;
+    line-height: 1.6;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.container {
+    width: 100%;
+    height: 100%;
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+    scroll-snap-type: y mandatory;
+}
+
+
+/* navbar */
+
+.navbar {
+    background-color: rgba(0, 0, 0, 0.7);
+    width: 100%;
+    height: 60px;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+    display: flex;
+}
+
+.navbar ul {
+    display: flex;
+    list-style: none;
+    width: 100%;
+    justify-content: center;
+}
+
+.navbar ul li {
+    margin: 0 1rem;
+    padding: 1rem;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #ecf0f1;
+}
+
+.navbar ul li a:hover {
+    color: #3498db;
+}
+
+section {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    scroll-snap-align: center;
+}
+
+section h1 {
+    font-size: 2rem;
+}
+
+section span {
+    font-size: 2.5rem
+}
+
+section p {
+    width: 60%;
+}
+
+/* SECTION IMAGES */
+section#home {
+    background: url(https://cdn.britannica.com/s:740x416,c:crop/03/74303-050-69562B4B/Isaac-Newton.jpg
+    ) no-repeat center center/cover;
+}
+
+section#about {
+    background: url(https://ichef.bbci.co.uk/images/ic/640x360/p01h9j56.jpg
+    ) no-repeat center center/cover;
+}
+
+section#project {
+    background: url(https://s26162.pcdn.co/wp-content/uploads/2021/02/Marie-cutie.jpg
+    ) no-repeat center center/cover;
+}
+
+section#contact {
+    background: url(https://images.fastcompany.net/image/upload/w_1280,f_auto,q_auto,fl_lossy/wp-cms/uploads/2021/09/poster-Tim-Berners-Lee-joins-proton-advisory-board.jpg
+    ) no-repeat center center/cover;
+}
