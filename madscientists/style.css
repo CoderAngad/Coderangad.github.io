@@ -63,22 +63,77 @@ section {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
-    text-align: center;
     scroll-snap-align: center;
 }
 
-section h1 {
+section#home h1 {
     font-size: 2rem;
+    margin-left: 1rem;
+    align-items: left;
+    text-align: left;
 }
 
-section span {
-    font-size: 2.5rem
+section#home p {
+    width: 25%;
+    margin-left: 1rem;
+    align-items: left;
+    text-align: left;
 }
 
-section p {
-    width: 60%;
+section#about h1 {
+    font-size: 2rem;
+    width: 25%;
+    margin-left: 62rem;
+    align-items: left;
+    text-align: left;
 }
+
+section#about p {
+    width: 25%;
+    margin-left: 62rem;
+    align-items: left;
+    text-align: left;
+}
+
+section#project h1 {
+    font-size: 2rem;
+    margin-left: 1rem;
+    align-items: left;
+    text-align: left;
+}
+
+section#project p {
+    width: 25%;
+    margin-left: 1rem;
+    align-items: left;
+    text-align: left;
+}
+
+section#contact h1 {
+    font-size: 2rem;
+    margin-left: 1rem;
+    align-items: left;
+    text-align: left;
+}
+
+section#contact p {
+    width: 25%;
+    margin-left: 1rem;
+    align-items: left;
+    text-align: left;
+}
+
+section#contact {
+    color: black;
+}
+
+
+
+
+
+
+
+
 
 /* SECTION IMAGES */
 section#home {
