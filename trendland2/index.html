@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TrendLand</title>
+
+
+
+
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+    * {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-image: linear-gradient(to top, #a8edea 0%, #fed6e3 100%);
+    overflow-y: scroll;
+}
+
+label.logo h1 {
+    display: inline-block;
+    line-height: 80px;
+    margin-left: 50px;
+    color: orange;
+}
+
+label.logo1 h1 {
+    display: inline-block;
+    margin-top: 25px;
+    margin-right: 750px;
+    color: darkblue;
+}
+
+.container {
+    width: 100%;
+    height: 100%;
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+    scroll-snap-type: y mandatory;
+}
+
+nav {
+    position: fixed;
+    background-color: #0082e6;
+    height: 5rem;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+nav ul {
+    float: right;
+    margin-right: 20px;
+}
+
+nav ul li {
+    display: inline-block;
+    line-height: 80px;
+    margin: 0px 5px;
+}
+
+nav ul li a {
+    color: white;
+    font-size: 17px;
+    padding: 7px 13px;
+    border-radius: 3px;
+    text-transform: uppercase;
+}
+
+a.active a:hover {
+    background-color: #1b9bff;
+    transition: .5s;
+}
+
+label.logo p {
+    color: white;
+    font-size: 35px;
+    line-height: 80px;
+    padding: 0px 100px;
+    font-weight: bold;
+}
+
+label.logo p span {
+    color: orange;
+}
+
+section {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    scroll-snap-align: center;
+}
+
+section#about h1 {
+    margin-top: 14rem;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+section#about p {
+    margin-bottom: 20px;
+    width: 60%;
+    text-align: center;
+}
+
+section#about a {
+    margin-bottom: 140px;
+    padding: 5px;
+    background-color: darkblue;
+    text-decoration: none;
+    color: orange;
+    border-radius: 5px;
+}
+
+section#about a:hover {
+    transition: 0.1s;
+    background-color: orange;
+    color: darkblue;
+}
+
+section#product h1 {
+    margin-bottom: 5px;
+    text-align: center;
+}
+
+section#product .onetofour {
+    margin-bottom: 10px;
+    margin-top: 15px;
+    display: flex;
+    flex-direction: row;
+}
+
+section#product a.one {
+    padding: 5px;
+    background-color: darkblue;
+    color: orange;
+    border-radius: 5px;
+}
+
+section#product a.two {
+    margin-left: 35px;
+    padding: 5px;
+    background-color: darkblue;
+    color: orange;
+    border-radius: 5px;
+}
+
+section#product a.three {
+    margin-left: 35px;
+    padding: 5px;
+    background-color: darkblue;
+    color: orange;
+    border-radius: 5px;
+}
+
+section#product a.four {
+    margin-left: 35px;
+    padding: 5px;
+    background-color: darkblue;
+    color: orange;
+    border-radius: 5px;
+}
+
+section#product .fivetoeight {
+    display: flex;
+    flex-direction: row;
+}
+
+section#product a.five {
+    padding: 5px;
+    background-color: darkblue;
+    color: orange;
+    border-radius: 5px;
+}
+
+section#product a.six {
+    margin-left: 35px;
+    padding: 5px;
+    background-color: darkblue;
+    color: orange;
+    border-radius: 5px;
+}
+
+section#product a.seven {
+    margin-left: 35px;
+    padding: 5px;
+    background-color: darkblue;
+    color: orange;
+    border-radius: 5px;
+}
+
+section#product a.eight {
+    margin-left: 35px;
+    padding: 5px;
+    background-color: darkblue;
+    color: orange;
+    border-radius: 5px;
+}
+
+section#product a:hover {
+    transition: 0.1s;
+    background-color: orange;
+    color: darkblue;
+}
+
+
+section#contact h1 {
+    margin: 25px 600px;
+}
+
+section#contact p {
+    width: 50%;
+    text-align: center;
+}
+</style>
+</head>
+<body>
+<div class="container">
+        <!-- NAVBAR -->
+        <nav>
+            <label class="logo"><h1><span>TREND</span></h1></label>
+            <label class="logo1"><h1><span><b>LAND</b></span></h1></label>
+            <ul>
+                <li class="active"><a href="#about">Home</a></li>
+                <li><a href="#product">Products</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    
+        <!-- About Us -->
+    
+        <section id="about">
+            <h1>Home</h1>
+            <p>
+                Hello Friend,
+    
+    Hope you are doing fantastically fabulous 😊.
+    We are delighted to announce the opening of our Online Store called TrendLand with following objectives in our mind:
+     - Bring diversity and Indian craft and culture to new countries. 
+     - To keep the culture alive and provide the connection to the roots. 
+     - To support small scale independent entrepreneurs to sell their skills. 
+     - With the Quality and customer satisfaction in our mind we have ventured with CuteDavv so that it can be achieved.
+    
+    Hope you are also ecstatic with this news as we are and support us as you always do.
+    
+    I am sharing few photos of our products and please do let us know if you are interested in any.
+     - Cushion Cover
+     - Bed Runner
+     - Table Runner
+     - Phulkari Jackets (Women)
+     - Embroidery Scarf -
+    
+    Please Contact for more details.
+    
+    Thanks
+    TrendLand
+            </p>
+            <a href="#contact">Click Here for Contact details</a>
+        </section>
+    
+        <section id="product">
+            <div class="title">
+                <h1>Our Products</h1>
+            </div>
+    
+            <div class="onetofour">
+                <a href="" class="one">Cushion Cover</a>
+                <a href="" class="two">Table Runner</a>
+                <a href="" class="three">Jackets</a>
+                <a href="" class="four">Women Trousers</a>
+            </div>
+    
+            <div class="fivetoeight">
+                <a href="" class="five">Sarees</a>
+                <a href="" class="six">Bed Runner</a>
+                <a href="" class="seven">Hand-Bag</a>
+                <a href="" class="eight">Scarves</a>
+            </div>
+        </section>
+
+        <section id="contact">
+            <h1>Contact Us</h1>
+                <p>Customer feedback is very important to us and we take this very seriously.
+                    We are available on WhatsApp to answer your any query @ +44 (0) 7928589697.</p>
+        </section>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
